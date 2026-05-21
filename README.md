@@ -8,6 +8,7 @@
 <p align="center">
   <a href="#ai">AI</a> •
   <a href="#cloud">Cloud</a> •
+  <a href="#devops--sre-tools">DevOps & SRE Tools</a> •
   <a href="#about">About</a>
 </p>
 
@@ -51,6 +52,16 @@
 | :orange_square: | AWS | Planned |
 | :blue_square: | Azure | Planned |
 | :red_square: | GCP | Planned |
+
+---
+
+## DevOps & SRE Tools
+
+### Learning & Certification
+
+| | Resource | What it covers | Updated |
+|:--|:---------|:---------------|:--------|
+| :triangular_ruler: | [**Terraform Associate (004) Study Plan**](DevOps-SRE-Tools/Terraform/terraform-associate-004-study-plan.md) | Objective-by-objective plan for the HashiCorp Terraform Associate 004 exam | 2026-05-21 |
 
 ---
 
