@@ -27,6 +27,7 @@
 | :building_construction: | [**Terraform**](AI/Anthropic/workflows/terraform-pipelines.md) | IaC workflows and state management |
 | :octocat: | [**GitHub & Bitbucket**](AI/Anthropic/workflows/github-bitbucket.md) | PRs, issues, and repo management |
 | :zap: | [**Agents & Skills**](AI/Anthropic/advanced/agents-and-skills.md) | Advanced automation features |
+| :mortar_board: | [**CCA-F Study Plan**](AI/Anthropic/certification/cca-foundations-study-plan.md) | 30-day plan for the Claude Certified Architect Foundations exam |
 
 ### OpenAI
 
