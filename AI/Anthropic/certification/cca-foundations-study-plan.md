@@ -71,9 +71,9 @@ Goal: understand how a large language model works and how the Messages API is sh
 
 ### Tasks
 
-- [ ] Take the AI Fluency Framework Foundations course
-- [ ] Take the Claude 101 course
-- [ ] Take the Claude with the Anthropic API course
+- [ ] Take the [AI Fluency Framework Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) course
+- [ ] Take the [Claude 101](https://anthropic.skilljar.com/claude-101) course
+- [ ] Take the [Claude with the Anthropic API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) course
 - [ ] Write in your own words what happens on a single API call from request to stop_reason
 - [ ] Explain to yourself why a stateless model needs the full history resent each turn
 
@@ -118,7 +118,7 @@ Goal: the largest domain at 27%. Understand the agentic loop, multi-agent coordi
 
 ### Tasks
 
-- [ ] Take the Introduction to Subagents course
+- [ ] Take the [Introduction to Subagents](https://anthropic.skilljar.com/introduction-to-subagents) course
 - [ ] Sketch a hub-and-spoke design for Scenario 3 Multi-Agent Research System
 - [ ] List the loop anti-patterns from memory and write the correct pattern for each
 - [ ] Write the difference between PreToolUse and PostToolUse in one sentence each
@@ -157,8 +157,8 @@ Goal: 18%. Understand how Claude selects tools, how to design tool errors, and h
 
 ### Tasks
 
-- [ ] Take the Introduction to Model Context Protocol course
-- [ ] Take the Model Context Protocol Advanced Topics course
+- [ ] Take the [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol) course
+- [ ] Take the [Model Context Protocol Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) course
 - [ ] Write a strong tool description and a weak one and explain the difference
 - [ ] Map each errorCategory to whether it should be retried
 
@@ -198,9 +198,9 @@ Goal: 20%. Understand CLAUDE.md, rules, commands, skills, and CI usage.
 
 ### Tasks
 
-- [ ] Take the Claude Code 101 course
-- [ ] Take the Claude Code in Action course
-- [ ] Take the Introduction to Agent Skills course
+- [ ] Take the [Claude Code 101](https://anthropic.skilljar.com/claude-code-101) course
+- [ ] Take the [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) course
+- [ ] Take the [Introduction to Agent Skills](https://anthropic.skilljar.com/introduction-to-agent-skills) course
 - [ ] Draft a CLAUDE.md outline for Scenario 4 Developer Productivity
 - [ ] Write the exact CLI flags you would use for Scenario 5 Claude Code for CI/CD
 
@@ -287,17 +287,17 @@ Goal: 15%. Understand the context window in practice and how to keep agents reli
 
 Goal: convert knowledge into exam performance through repeated testing and hands-on work.
 
-- [ ] Take the official practice exam, attempt 1 (Day 23)
+- [ ] Take the [official practice exam](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request), attempt 1 (Day 23)
 - [ ] Review every wrong answer in your own words, attempt 1
-- [ ] Take the official practice exam, attempt 2 (Day 25, one day gap)
+- [ ] Take the [official practice exam](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request), attempt 2 (Day 25, one day gap)
 - [ ] Review every wrong answer in your own words, attempt 2
-- [ ] Take the official practice exam, attempt 3 (Day 27, one day gap)
+- [ ] Take the [official practice exam](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request), attempt 3 (Day 27, one day gap)
 - [ ] Review every wrong answer in your own words, attempt 3
 - [ ] Complete official hands-on exercise 1
 - [ ] Complete official hands-on exercise 2
 - [ ] Complete official hands-on exercise 3
 - [ ] Complete official hands-on exercise 4
-- [ ] Drill weak domains on certsafari
+- [ ] Drill weak domains on [CertSafari](https://certsafari.com/anthropic/claude-certified-architect)
 - [ ] Re-walk all 6 scenarios and confirm each is checked in the tracker
 
 ---
