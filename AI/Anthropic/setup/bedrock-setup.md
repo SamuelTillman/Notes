@@ -27,7 +27,7 @@ Before configuring Claude Code, make sure Claude models are enabled in your AWS 
 
 Claude Code uses your AWS credentials to call Bedrock. Set up one of these:
 
-### Option A: SSO (recommended for NBA)
+### Option A: SSO (recommended)
 ```bash
 aws configure sso
 # Follow prompts to set up your SSO profile
