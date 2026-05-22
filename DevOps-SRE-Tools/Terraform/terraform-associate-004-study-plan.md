@@ -68,6 +68,11 @@ Goal: understand the conceptual case for IaC and Terraform's position in it.
 
 Official sub-objectives: 1a explain what IaC is, 1b describe the advantages of IaC patterns, 1c explain how Terraform manages multi-cloud, hybrid cloud, and service-agnostic workflows.
 
+### Official learning resources
+
+- [ ] [Introduction to Infrastructure as Code with Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code) (tutorial)
+- [ ] [Terraform use cases](https://developer.hashicorp.com/terraform/intro/use-cases) (docs)
+
 ### Concepts to master
 
 - [ ] What Infrastructure as Code is
@@ -90,6 +95,18 @@ Readiness gate: you can explain to a non-expert why a team would adopt Terraform
 Goal: providers, and a first mental model of state.
 
 Official sub-objectives: 2a install and version Terraform providers, 2b describe how Terraform uses providers, 2c write Terraform configuration using multiple providers, 2d explain how Terraform uses and manages state.
+
+### Official learning resources
+
+- [ ] Get Started collection for your platform: [AWS](https://developer.hashicorp.com/terraform/tutorials/aws-get-started), [Azure](https://developer.hashicorp.com/terraform/tutorials/azure-get-started), [GCP](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started), or [Docker](https://developer.hashicorp.com/terraform/tutorials/docker-get-started) (tutorial)
+- [ ] [How Terraform works with plugins](https://developer.hashicorp.com/terraform/plugin/how-terraform-works) (docs)
+- [ ] [Purpose of Terraform state](https://developer.hashicorp.com/terraform/language/state/purpose) (docs)
+- [ ] [Providers overview](https://developer.hashicorp.com/terraform/language/providers) (docs)
+- [ ] [Manage Terraform versions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/versions) (tutorial)
+- [ ] [Lock and upgrade provider versions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/provider-versioning) (tutorial)
+- [ ] [The terraform block](https://developer.hashicorp.com/terraform/language/block/terraform) (docs)
+- [ ] [Provider requirements](https://developer.hashicorp.com/terraform/language/providers/requirements) (docs)
+- [ ] [Dependency lock file](https://developer.hashicorp.com/terraform/language/files/dependency-lock) (docs)
 
 ### Concepts to master
 
@@ -115,6 +132,20 @@ Readiness gate: you can explain the difference between Terraform core and a prov
 Goal: the day-to-day command workflow. This is the most hands-on objective.
 
 Official sub-objectives: 3a describe the Terraform workflow, 3b initialize a working directory, 3c validate a configuration, 3d generate and review an execution plan, 3e apply changes to infrastructure, 3f destroy Terraform-managed infrastructure, 3g apply formatting and style adjustments.
+
+### Official learning resources
+
+- [ ] [The core Terraform workflow](https://developer.hashicorp.com/terraform/intro/core-workflow) (docs)
+- [ ] [Initialize Terraform configuration](https://developer.hashicorp.com/terraform/tutorials/cli/init) (tutorial)
+- [ ] [terraform init command](https://developer.hashicorp.com/terraform/cli/commands/init) (docs)
+- [ ] [terraform fmt command](https://developer.hashicorp.com/terraform/cli/commands/fmt) (docs)
+- [ ] [terraform validate command](https://developer.hashicorp.com/terraform/cli/commands/validate) (docs)
+- [ ] [Create a Terraform plan](https://developer.hashicorp.com/terraform/tutorials/cli/plan) (tutorial)
+- [ ] [terraform plan command](https://developer.hashicorp.com/terraform/cli/commands/plan) (docs)
+- [ ] [Apply Terraform configuration](https://developer.hashicorp.com/terraform/tutorials/cli/apply) (tutorial)
+- [ ] [terraform apply command](https://developer.hashicorp.com/terraform/cli/commands/apply) (docs)
+- [ ] [terraform destroy command](https://developer.hashicorp.com/terraform/cli/commands/destroy) (docs)
+- [ ] [Terraform dependency graph](https://developer.hashicorp.com/terraform/internals/graph) (docs)
 
 ### Concepts to master
 
@@ -142,6 +173,53 @@ Readiness gate: you can describe, from memory and in order, what each core comma
 Goal: the largest concept surface. HCL language features, variables, expressions, dependencies, and sensitive data.
 
 Official sub-objectives: 4a use and differentiate `resource` and `data` blocks, 4b refer to resource attributes and create cross-resource references, 4c use variables and outputs, 4d understand and use complex types, 4e write dynamic configuration using expressions and functions, 4f define resource dependencies, 4g validate configuration using custom conditions, 4h understand best practices for managing sensitive data including secrets management with Vault.
+
+### Official learning resources
+
+Resources and data sources:
+
+- [ ] [Define infrastructure with resources](https://developer.hashicorp.com/terraform/tutorials/configuration-language/resource) (tutorial)
+- [ ] [Resources](https://developer.hashicorp.com/terraform/language/resources) (docs)
+- [ ] [resource block](https://developer.hashicorp.com/terraform/language/block/resource) (docs)
+- [ ] [Query data sources](https://developer.hashicorp.com/terraform/tutorials/configuration-language/data-sources) (tutorial)
+- [ ] [Data sources](https://developer.hashicorp.com/terraform/language/data-sources) (docs)
+- [ ] [data block](https://developer.hashicorp.com/terraform/language/block/data) (docs)
+
+Dependencies and references:
+
+- [ ] [Create resource dependencies](https://developer.hashicorp.com/terraform/tutorials/configuration-language/dependencies) (tutorial)
+- [ ] [Reference named values](https://developer.hashicorp.com/terraform/language/expressions/references) (docs)
+- [ ] [Resource addressing](https://developer.hashicorp.com/terraform/cli/state/resource-addressing) (docs)
+- [ ] [depends_on meta-argument](https://developer.hashicorp.com/terraform/language/meta-arguments#depends_on) (docs)
+- [ ] [Target resources](https://developer.hashicorp.com/terraform/tutorials/state/resource-targeting) (tutorial)
+
+Variables and outputs:
+
+- [ ] [Customize Terraform configuration with variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/variables) (tutorial)
+- [ ] [Input variables](https://developer.hashicorp.com/terraform/language/values/variables) (docs)
+- [ ] [Output data from Terraform](https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs) (tutorial)
+- [ ] [Outputs](https://developer.hashicorp.com/terraform/language/values/outputs) (docs)
+
+Functions and expressions:
+
+- [ ] [Perform dynamic operations with functions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/functions) (tutorial)
+- [ ] [Built-in functions](https://developer.hashicorp.com/terraform/language/functions) (docs)
+- [ ] [Create dynamic expressions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/expressions) (tutorial)
+- [ ] [Type constraints](https://developer.hashicorp.com/terraform/language/expressions/type-constraints) (docs)
+
+Resource lifecycle and validation:
+
+- [ ] [Manage resource lifecycle](https://developer.hashicorp.com/terraform/tutorials/state/resource-lifecycle) (tutorial)
+- [ ] [Resource lifecycle](https://developer.hashicorp.com/terraform/language/meta-arguments#lifecycle) (docs)
+- [ ] [Validate your configuration](https://developer.hashicorp.com/terraform/language/validate) (docs)
+- [ ] [Validate modules with custom conditions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/custom-conditions) (tutorial)
+- [ ] [Use checks to validate infrastructure](https://developer.hashicorp.com/terraform/tutorials/configuration-language/checks) (tutorial)
+
+Sensitive data:
+
+- [ ] [Protect sensitive input variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables) (tutorial)
+- [ ] [Manage sensitive data](https://developer.hashicorp.com/terraform/language/manage-sensitive-data) (docs)
+- [ ] [Inject secrets into Terraform using the Vault provider](https://developer.hashicorp.com/terraform/tutorials/secrets/secrets-vault) (tutorial)
 
 ### Concepts to master
 
@@ -176,6 +254,17 @@ Goal: how Terraform finds, scopes, and versions modules.
 
 Official sub-objectives: 5a explain how Terraform sources modules, 5b describe variable scope within modules, 5c use modules in configuration, 5d manage module versions.
 
+### Official learning resources
+
+- [ ] [Modules overview](https://developer.hashicorp.com/terraform/language/modules) (docs)
+- [ ] [Use registry modules in configuration](https://developer.hashicorp.com/terraform/tutorials/modules/module-use) (tutorial)
+- [ ] [Use modules in your configuration](https://developer.hashicorp.com/terraform/language/modules/configuration) (docs)
+- [ ] [Build and use a local module](https://developer.hashicorp.com/terraform/tutorials/modules/module-create) (tutorial)
+- [ ] [Standard module structure](https://developer.hashicorp.com/terraform/language/modules/develop/structure) (docs)
+- [ ] [Providers within modules](https://developer.hashicorp.com/terraform/language/modules/develop/providers) (docs)
+- [ ] [Manage values in modules](https://developer.hashicorp.com/terraform/language/values) (docs)
+- [ ] [Best practices for composing modules](https://developer.hashicorp.com/terraform/language/modules/develop/composition) (docs)
+
 ### Concepts to master
 
 - [ ] How Terraform sources modules: local paths, the registry, and remote sources
@@ -199,6 +288,24 @@ Readiness gate: you can explain why a value defined in the root is not automatic
 Goal: backends, locking, remote state, and drift.
 
 Official sub-objectives: 6a describe the local backend, 6b describe state locking, 6c configure remote state using the backend block, 6d manage resource drift and Terraform state.
+
+### Official learning resources
+
+State fundamentals:
+
+- [ ] [Terraform state](https://developer.hashicorp.com/terraform/language/state) (docs)
+- [ ] [Manage resources in Terraform state](https://developer.hashicorp.com/terraform/tutorials/state/state-cli) (tutorial)
+- [ ] [Use refresh-only mode to sync Terraform state](https://developer.hashicorp.com/terraform/tutorials/state/refresh) (tutorial)
+- [ ] [Manage resource drift](https://developer.hashicorp.com/terraform/tutorials/state/resource-drift) (tutorial)
+- [ ] [Use configuration to move resources](https://developer.hashicorp.com/terraform/tutorials/state/move-config) (tutorial)
+- [ ] [Refactor Terraform state](https://developer.hashicorp.com/terraform/language/state/refactor) (docs)
+- [ ] [moved block](https://developer.hashicorp.com/terraform/language/block/moved) (docs)
+- [ ] [Remove a resource from state](https://developer.hashicorp.com/terraform/language/state/remove) (docs)
+
+Backend configuration:
+
+- [ ] [backend block configuration](https://developer.hashicorp.com/terraform/language/backend) (docs)
+- [ ] [State storage and locking](https://developer.hashicorp.com/terraform/language/state/backends) (docs)
 
 ### Concepts to master
 
@@ -226,6 +333,15 @@ Goal: bringing existing infrastructure under management and debugging.
 
 Official sub-objectives: 7a import existing infrastructure into your workspace, 7b use the CLI to inspect state, 7c describe when and how to use verbose logging.
 
+### Official learning resources
+
+- [ ] [Import Terraform configuration](https://developer.hashicorp.com/terraform/tutorials/state/state-import) (tutorial)
+- [ ] [Import existing resources](https://developer.hashicorp.com/terraform/language/import) (docs)
+- [ ] [Troubleshoot Terraform](https://developer.hashicorp.com/terraform/tutorials/configuration-language/troubleshooting-workflow) (tutorial)
+- [ ] [terraform state list command](https://developer.hashicorp.com/terraform/cli/commands/state/list) (docs)
+- [ ] [terraform show command](https://developer.hashicorp.com/terraform/cli/commands/show) (docs)
+- [ ] [Enable Terraform logs](https://developer.hashicorp.com/terraform/internals/debugging) (docs)
+
 ### Concepts to master
 
 - [ ] Importing existing infrastructure with `terraform import` or `import` blocks
@@ -248,6 +364,47 @@ Readiness gate: you can take an unmanaged resource and bring it under Terraform 
 Goal: the managed platform and its collaboration and governance features, at the level the exam describes them.
 
 Official sub-objectives: 8a use HCP Terraform to create infrastructure, 8b describe HCP Terraform collaboration and governance features, 8c describe how to organize and use HCP Terraform workspaces and projects, 8d configure and use HCP Terraform integration.
+
+### Official learning resources
+
+Basics and migration:
+
+- [ ] [What is HCP Terraform](https://developer.hashicorp.com/terraform/cloud-docs) (docs)
+- [ ] [Get started with HCP Terraform](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started) (tutorial)
+- [ ] [Remote operations](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/run/remote-operations) (docs)
+- [ ] [Use HCP Terraform with the Terraform CLI](https://developer.hashicorp.com/terraform/cli/cloud) (docs)
+- [ ] [terraform login command](https://developer.hashicorp.com/terraform/cli/commands/login) (docs)
+- [ ] [Migrate state to HCP Terraform](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-migrate) (tutorial)
+- [ ] [Migrate state](https://developer.hashicorp.com/terraform/cloud-docs/migrate) (docs)
+- [ ] [Connect to HCP Terraform](https://developer.hashicorp.com/terraform/cli/cloud/settings) (docs)
+- [ ] [Upgrade Terraform version in HCP Terraform](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-versions) (tutorial)
+
+Workspace connections:
+
+- [ ] [HCP Terraform workspaces](https://developer.hashicorp.com/terraform/cloud-docs/workspaces) (docs)
+- [ ] [Connect workspaces with run triggers](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-run-triggers) (tutorial)
+- [ ] [Run triggers](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-triggers) (docs)
+- [ ] [terraform_remote_state data source](https://developer.hashicorp.com/terraform/language/state/remote-state-data) (docs)
+
+Organization and variables:
+
+- [ ] [Projects overview](https://developer.hashicorp.com/terraform/cloud-docs/projects) (docs)
+- [ ] [Organize workspaces with projects](https://developer.hashicorp.com/terraform/tutorials/cloud/projects) (tutorial)
+- [ ] [Multiple variable sets](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-multiple-variable-sets) (tutorial)
+- [ ] [Variable sets](https://developer.hashicorp.com/terraform/cloud-docs/variables/managing-variables#variable-sets) (docs)
+
+Collaboration and governance:
+
+- [ ] [Teams overview](https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/teams) (docs)
+- [ ] [Permissions overview](https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/permissions) (docs)
+- [ ] [Authenticate providers with dynamic credentials](https://developer.hashicorp.com/terraform/tutorials/cloud/dynamic-credentials) (tutorial)
+- [ ] [Dynamic provider credentials](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials) (docs)
+- [ ] [Use health assessments](https://developer.hashicorp.com/terraform/tutorials/cloud/drift-detection) (tutorial)
+- [ ] [Workspace health](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/health) (docs)
+- [ ] [Detect drift and enforce policies](https://developer.hashicorp.com/terraform/tutorials/cloud/drift-and-policy) (tutorial)
+- [ ] [Policy overview](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/policy-enforcement) (docs)
+- [ ] [Explorer for workspace visibility](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/explorer) (docs)
+- [ ] [Change requests](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/change-requests) (docs)
 
 ### Concepts to master
 
